@@ -39,6 +39,7 @@
             'primary-footer': '#ffffff99',
             'primary-nav': '#424247',
             'primary-white': '#FFFFFF',
+            'primary-icon': '#F99808'
           }
         }
       }
@@ -50,7 +51,7 @@
   <!-- Header section start -->
   <header>
     <!-- Navbar section start -->
-    <section class="container mx-auto px-4">
+    <section class="container mx-auto px-4 lg:px-0 ">
       <div class="navbar bg-base-100 px-0 my-2 md:my-12">
         <div class="navbar-start">
           <div class="dropdown">
@@ -68,16 +69,9 @@
               <li><a class="text-sm md:text-base text-primary-nav font-bold font-manrope capitalize">contact</a></li>
               <li>
                 <button class="btn btn-ghost block md:hidden btn-circle">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                       d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                   </svg>
                 </button>
@@ -98,39 +92,35 @@
         </div>
         <div class="navbar-end">
           <button class="btn btn-ghost hidden md:block btn-circle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
               stroke="currentColor">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
           </button>
-          <a class="btn btn-sm md:btn-md text-primary-white font-manrope text-sm md:text-xl capitalize font-bold bg-primary-color">get ticket</a>
+          <a
+            class="btn btn-sm md:btn-md text-primary-white font-manrope text-sm md:text-xl capitalize font-bold bg-primary-color">get
+            ticket</a>
         </div>
       </div>
 
 
       <!-- Banner section start -->
-      
+
       <div class="carousel w-full rounded-xl">
         <!-- First Slider -->
 
         <div id="slide1" class="carousel-item relative w-full md:justify-end md:items-end items-end">
           <div class="bg-primary-title absolute md:p-8 rounded-2xl md:m-8">
             <div class="md:w-[500px] space-y-4 hidden md:block">
-              <h2 class="text-primary-white text-lg md:text-2xl font-manrope font-extrabold">Meet all the heroes from the field</h2>
-              <p class="text-primary-footer text-sm md:text-base font-medium leading-7 font-manrope">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              <h2 class="text-primary-white text-lg md:text-2xl font-manrope font-extrabold">Meet all the heroes from
+                the field</h2>
+              <p class="text-primary-footer text-sm md:text-base font-medium leading-7 font-manrope">Dit amet
+                consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+                proin. </p>
             </div>
-            </div>
-            <img
-            src="Images/1.png"
-            class="md:w-full md:h-[550px] h-[200px]" />
+          </div>
+          <img src="Images/1.png" class="md:w-full md:h-[550px] h-[200px]" />
           <div class="absolute left-5 bottom-50 top-1/12 flex gap-2 -translate-y-1/2 transform justify-between">
             <a href="#slide2" class="btn btn-sm btn-circle bg-primary-title border-0 text-primary-white">❮</a>
             <a href="#slide2" class="btn btn-sm btn-circle bg-primary-title border-0 text-primary-white">❯</a>
@@ -142,37 +132,340 @@
         <div id="slide2" class="carousel-item relative w-full md:justify-end md:items-end items-end">
           <div class="bg-primary-title absolute md:p-8 rounded-2xl md:m-8">
             <div class="md:w-[500px] space-y-4 hidden md:block">
-              <h2 class="text-primary-white text-lg md:text-2xl font-manrope font-extrabold">Meet all the heroes from the field</h2>
-              <p class="text-primary-footer text-sm md:text-base font-medium leading-7 font-manrope">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              <h2 class="text-primary-white text-lg md:text-2xl font-manrope font-extrabold">Meet all the heroes from
+                the field</h2>
+              <p class="text-primary-footer text-sm md:text-base font-medium leading-7 font-manrope">Dit amet
+                consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+                proin. </p>
             </div>
-            </div>
-          <img
-            src="Images/4.png"
-            class="md:w-full md:h-[550px] h-[200px]" />
+          </div>
+          <img src="Images/4.png" class="md:w-full md:h-[550px] h-[200px]" />
           <div class="absolute left-5 bottom-50 top-1/12 flex gap-2 -translate-y-1/2 transform justify-between">
             <a href="#slide1" class="btn btn-sm btn-circle bg-primary-title border-0 text-primary-white">❮</a>
             <a href="#slide1" class="btn btn-sm btn-circle bg-primary-title border-0 text-primary-white">❯</a>
           </div>
         </div>
 
-       
+
       </div>
 
       <div class="bg-primary-title absolute mr-4 rounded-xl mt-4 block md:hidden">
         <div class="p-4">
           <h2 class="text-primary-white text-base font-manrope font-extrabold">Meet all the heroes from the field</h2>
-          <p class="text-primary-footer text-sm font-medium leading-7 font-manrope">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          <p class="text-primary-footer text-sm font-medium leading-7 font-manrope">Dit amet consectetur. Condimentum
+            dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
         </div>
-        </div>
-      
+      </div>
+
     </section>
   </header>
   <!-- Header section end -->
 
 
   <!-- Main section start -->
-  <main>
-    
+  <main class="container mx-auto">
+    <!-- Hockey club section start -->
+    <section class="mt-[250px] md:mt-0 px-4 lg:px-0">
+      <div class=" space-y-4 border-y-4 border-dotted py-6 md:py-12 mt-24 md:mb-14 mb-10">
+        <h2 class="text-primary-title font-extrabold text-2xl md:text-4xl font-manrope text-center capitalize">
+          Professional Hockeys Club</h2>
+        <p class="text-primary-article font-manrope font-medium text-base leading-6 md:w-2/4 mx-auto text-center">Dit
+          amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+          proin. </p>
+      </div>
+
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <!-- First circle -->
+        <div class="text-center space-y-5">
+          <div class="radial-progress text-primary-color" style="--value:87;" role="progressbar">87%</div>
+          <h2 class="text-primary-title font-semibold text-base md:text-xl font-manrope">Prayer Facility</h2>
+          <p class="text-sm md:text-base font-normal font-manrope text-primary-article leading-6">Amet consectetur.
+            Condimentum dignissim adipiscing .</p>
+        </div>
+        <div class="text-center space-y-5">
+          <div class="radial-progress text-green-400" style="--value:95;" role="progressbar">95%</div>
+          <h2 class="text-primary-title font-semibold text-base md:text-xl font-manrope">Prayer Facility</h2>
+          <p class="text-sm md:text-base font-normal font-manrope text-primary-article leading-6">Amet consectetur.
+            Condimentum dignissim adipiscing .</p>
+        </div>
+        <div class="text-center space-y-5">
+          <div class="radial-progress text-amber-400" style="--value:90;" role="progressbar">90%</div>
+          <h2 class="text-primary-title font-semibold text-base md:text-xl font-manrope">Prayer Facility</h2>
+          <p class="text-sm md:text-base font-normal font-manrope text-primary-article leading-6">Amet consectetur.
+            Condimentum dignissim adipiscing .</p>
+        </div>
+        <div class="text-center space-y-5">
+          <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar">80%</div>
+          <h2 class="text-primary-title font-semibold text-base md:text-xl font-manrope">Prayer Facility</h2>
+          <p class="text-sm md:text-base font-normal font-manrope text-primary-article leading-6">Amet consectetur.
+            Condimentum dignissim adipiscing .</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Program section start -->
+    <section class="px-4 lg:px-0">
+      <div class=" space-y-4 border-y-4 border-dotted py-6 md:py-12 mt-24 md:mb-14 mb-10">
+        <h2 class="text-primary-title font-extrabold text-2xl md:text-4xl font-manrope text-center capitalize">Program
+          section</h2>
+        <p class="text-primary-article font-manrope font-medium text-base leading-6 md:w-2/4 mx-auto text-center">Dit
+          amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+          proin. </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+        <!-- First card -->
+        <div class="w-full flex md:items-end">
+          <img class="w-full relative h-[245px] md-h-[340px] opacity-75" src="Images/2.png" alt="Shoes" />
+          <div class="absolute">
+            <div class="m-6 space-y-3 md:space-y-1">
+              <h2 class="text-primary-white font-manrope font-extrabold  text-2xl md:text-3xl m-0">Junior Program</h2>
+              <p class="text-primary-white md:text-base text-sm font-medium font-manrope md:leading-8 md:w-[500px]">
+                Dolor sit amet
+                consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod
+                natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <div class="card-actions">
+
+                <button
+                  class="btn btn-sm md:btn-md bg-primary-color capitalize text-sm md:text-xl font-bold font-manrope text-primary-white  border-primary-color">Register
+                  Now!</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- Second card -->
+        <div class="w-full flex md:items-end">
+
+          <img class="w-full relative h-[245px] md-h-[340px] opacity-75" src="Images/3.png" alt="Shoes" />
+
+          <div class="absolute">
+            <div class="m-6 space-y-3 md:space-y-1">
+              <h2 class="text-primary-white font-manrope font-extrabold  text-2xl md:text-3xl m-0">Teenager Program</h2>
+              <p class="text-primary-white md:text-base text-sm font-medium font-manrope md:leading-8 md:w-[500px]">
+                Dolor sit amet
+                consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod
+                natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <div class="card-actions">
+                <button
+                  class="btn btn-sm md:btn-md bg-primary-color capitalize text-sm md:text-xl font-bold font-manrope text-primary-white  border-primary-color">Register
+                  Now!</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Third card -->
+      <div class="w-full flex md:items-end mt-6">
+
+        <img class="w-full relative h-[245px] md-h-[340px] opacity-75" src="Images/4.png" alt="Shoes" />
+        <div class="absolute">
+          <div class="m-6 space-y-3 md:space-y-1">
+            <h2 class="text-primary-white font-manrope font-extrabold  text-2xl md:text-3xl m-0">Professional Program
+            </h2>
+            <p class="text-primary-white md:text-base text-sm font-medium font-manrope md:leading-8 md:w-[500px]">Dolor
+              sit amet
+              consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod
+              natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <div class="card-actions">
+
+              <button
+                class="btn btn-sm md:btn-md bg-primary-color capitalize text-sm md:text-xl font-bold font-manrope text-primary-white  border-primary-color">Register
+                Now!</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+
+    <!-- Products section start -->
+    <section class="px-4 lg:px-0">
+      <div class=" space-y-4 border-y-4 border-dotted py-6 md:py-12 mt-24 md:mb-14 mb-10">
+        <h2 class="text-primary-title font-extrabold text-2xl md:text-4xl font-manrope text-center capitalize">our new
+          products</h2>
+        <p class="text-primary-article font-manrope font-medium text-base leading-6 md:w-2/4 mx-auto text-center">Dit
+          amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+          proin. </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <!-- First Card -->
+        <div class="flex flex-col md:flex-col lg:flex-row gap-5 rounded-2xl bg-primary-white border border-gray-200 p-6">
+          <div class="">
+            <img class="w-full h-[250px]" src="Images/5.png" alt="Movie" />
+          </div>
+
+          <div class="">
+            <div class="space-y-3">
+              <ul class="flex md:flex-row gap-3">
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-solid fa-star text-primary-icon mr-2"></i>5.0</li>
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-regular fa-eye mr-2"></i>20</li>
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-regular fa-heart mr-2"></i>200</li>
+              </ul>
+              <h2 class="text-primary-title font-extrabold font-manrope text-xl">World Cup Flags Football</h2>
+              <p class="text-primary-article text-base font-manrope font-medium leading-6">Dolor sit amet consectetur.
+                Ut urna diam <br> quis sagittis.</p>
+              <div class="flex flex-col md:flex-row gap-3">
+                <p class="text-primary-color text-lg font-manrope font-extrabold leading-6">Price - $22.00</p>
+                <p class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-solid fa-cart-shopping mr-2"></i>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Second Card -->
+        <div class="flex flex-col md:flex-col lg:flex-row gap-5 rounded-2xl bg-primary-white border border-gray-200 p-6">
+          <div class="">
+            <img class="w-full h-[250px]" src="Images/6.png" alt="Movie" />
+          </div>
+
+          <div class="">
+            <div class="space-y-3">
+              <ul class="flex md:flex-row gap-3">
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-solid fa-star text-primary-icon mr-2"></i>5.0</li>
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-regular fa-eye mr-2"></i>20</li>
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-regular fa-heart mr-2"></i>200</li>
+              </ul>
+              <h2 class="text-primary-title font-extrabold font-manrope text-xl">World Cup Flags Football</h2>
+              <p class="text-primary-article text-base font-manrope font-medium leading-6">Dolor sit amet consectetur.
+                Ut urna diam <br> quis sagittis.</p>
+              <div class="flex flex-col md:flex-row gap-3">
+                <p class="text-primary-color text-lg font-manrope font-extrabold leading-6">Price - $22.00</p>
+                <p class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-solid fa-cart-shopping mr-2"></i>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Third Card -->
+        <div class="flex flex-col md:flex-col lg:flex-row gap-5 rounded-2xl bg-primary-white border border-gray-200 p-6">
+          <div class="">
+            <img class="w-full h-[250px]" src="Images/7.png" alt="Movie" />
+          </div>
+
+          <div class="">
+            <div class="space-y-3">
+              <ul class="flex md:flex-row gap-3">
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-solid fa-star text-primary-icon mr-2"></i>5.0</li>
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-regular fa-eye mr-2"></i>20</li>
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-regular fa-heart mr-2"></i>200</li>
+              </ul>
+              <h2 class="text-primary-title font-extrabold font-manrope text-xl">World Cup Flags Football</h2>
+              <p class="text-primary-article text-base font-manrope font-medium leading-6">Dolor sit amet consectetur.
+                Ut urna diam <br> quis sagittis.</p>
+              <div class="flex flex-col md:flex-row gap-3">
+                <p class="text-primary-color text-lg font-manrope font-extrabold leading-6">Price - $22.00</p>
+                <p class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-solid fa-cart-shopping mr-2"></i>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fourth Card -->
+        <div class="flex flex-col md:flex-col lg:flex-row gap-5 rounded-2xl bg-primary-white border border-gray-200 p-6">
+          <div class="">
+            <img class="w-full h-[250px]" src="Images/8.png" alt="Movie" />
+          </div>
+
+          <div class="">
+            <div class="space-y-3">
+              <ul class="flex md:flex-row gap-3">
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-solid fa-star text-primary-icon mr-2"></i>5.0</li>
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-regular fa-eye mr-2"></i>20</li>
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-regular fa-heart mr-2"></i>200</li>
+              </ul>
+              <h2 class="text-primary-title font-extrabold font-manrope text-xl">World Cup Flags Football</h2>
+              <p class="text-primary-article text-base font-manrope font-medium leading-6">Dolor sit amet consectetur.
+                Ut urna diam <br> quis sagittis.</p>
+              <div class="flex flex-col md:flex-row gap-3">
+                <p class="text-primary-color text-lg font-manrope font-extrabold leading-6">Price - $22.00</p>
+                <p class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-solid fa-cart-shopping mr-2"></i>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fifth Card -->
+        <div class="flex flex-col md:flex-col lg:flex-row gap-5 rounded-2xl bg-primary-white border border-gray-200 p-6">
+          <div class="">
+            <img class="w-full h-[250px]" src="Images/9.png" alt="Movie" />
+          </div>
+
+          <div class="">
+            <div class="space-y-3">
+              <ul class="flex md:flex-row gap-3">
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-solid fa-star text-primary-icon mr-2"></i>5.0</li>
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-regular fa-eye mr-2"></i>20</li>
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-regular fa-heart mr-2"></i>200</li>
+              </ul>
+              <h2 class="text-primary-title font-extrabold font-manrope text-xl">World Cup Flags Football</h2>
+              <p class="text-primary-article text-base font-manrope font-medium leading-6">Dolor sit amet consectetur.
+                Ut urna diam <br> quis sagittis.  </p>
+              <div class="flex flex-col md:flex-row gap-3">
+                <p class="text-primary-color text-lg font-manrope font-extrabold leading-6">Price - $22.00</p>
+                <p class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-solid fa-cart-shopping mr-2"></i>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Sixth Card -->
+        <div class="flex flex-col md:flex-col lg:flex-row gap-5 rounded-2xl bg-primary-white border border-gray-200 p-6">
+          <div class="">
+            <img class="w-full h-[250px]" src="Images/10.png" alt="Movie" />
+          </div>
+
+          <div class="">
+            <div class="space-y-3 md:space-y-7">
+              <ul class="flex md:flex-row gap-3">
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-solid fa-star text-primary-icon mr-2"></i>5.0</li>
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-regular fa-eye mr-2"></i>20</li>
+                <li class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-regular fa-heart mr-2"></i>200</li>
+              </ul>
+              <h2 class="text-primary-title font-extrabold font-manrope text-xl">World Cup Flags Football</h2>
+              <p class="text-primary-article text-base font-manrope font-medium leading-6">Dolor sit amet consectetur.
+                Ut urna diam <br> quis sagittis. </p>
+              <div class="flex flex-col md:flex-col lg:flex-row gap-2 lg:gap-0">
+                <p class="text-primary-color text-base lg:text-lg font-manrope font-extrabold leading-6">Price - $22.00</p>
+                <p class="text-primary-article text-base font-manrope font-medium"><i
+                    class="fa-solid fa-cart-shopping mr-2"></i>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
   </main>
   <!-- Main section end -->
   <!-- Footer section start -->
