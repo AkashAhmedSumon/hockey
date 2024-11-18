@@ -38,7 +38,7 @@
             'primary-article': '#13131899',
             'primary-footer': '#ffffff99',
             'primary-nav': '#424247',
-            'primary-white': '#FFFFFF'
+            'primary-white': '#FFFFFF',
           }
         }
       }
@@ -50,8 +50,8 @@
   <!-- Header section start -->
   <header>
     <!-- Navbar section start -->
-    <section class="container mx-auto">
-      <div class="navbar bg-base-100">
+    <section class="container mx-auto px-4">
+      <div class="navbar bg-base-100 px-0">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -114,6 +114,57 @@
           <a class="btn text-primary-white font-manrope text-sm md:text-xl capitalize font-bold bg-primary-color">get ticket</a>
         </div>
       </div>
+
+
+      <!-- Banner section start -->
+      
+      <div class="carousel w-full rounded-xl">
+        <!-- First Slider -->
+
+        <div id="slide1" class="carousel-item relative w-full md:justify-end md:items-end items-end">
+          <div class="bg-primary-title absolute md:p-8 rounded-2xl md:m-8">
+            <div class="md:w-[500px] space-y-4 hidden md:block">
+              <h2 class="text-primary-white text-lg md:text-2xl font-manrope font-extrabold">Meet all the heroes from the field</h2>
+              <p class="text-primary-footer text-sm md:text-base font-medium leading-7 font-manrope">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            </div>
+            <img
+            src="Images/1.png"
+            class="md:w-full md:h-[550px] h-[200px]" />
+          <div class="absolute left-5 bottom-50 top-1/12 flex gap-2 -translate-y-1/2 transform justify-between">
+            <a href="#slide2" class="btn btn-sm btn-circle bg-primary-title border-0 text-primary-white">❮</a>
+            <a href="#slide2" class="btn btn-sm btn-circle bg-primary-title border-0 text-primary-white">❯</a>
+          </div>
+
+        </div>
+
+        <!-- Second Slider -->
+        <div id="slide2" class="carousel-item relative w-full md:justify-end md:items-end items-end">
+          <div class="bg-primary-title absolute md:p-8 rounded-2xl md:m-8">
+            <div class="md:w-[500px] space-y-4 hidden md:block">
+              <h2 class="text-primary-white text-lg md:text-2xl font-manrope font-extrabold">Meet all the heroes from the field</h2>
+              <p class="text-primary-footer text-sm md:text-base font-medium leading-7 font-manrope">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            </div>
+          <img
+            src="Images/4.png"
+            class="md:w-full md:h-[550px] h-[200px]" />
+          <div class="absolute left-5 bottom-50 top-1/12 flex gap-2 -translate-y-1/2 transform justify-between">
+            <a href="#slide1" class="btn btn-sm btn-circle bg-primary-title border-0 text-primary-white">❮</a>
+            <a href="#slide1" class="btn btn-sm btn-circle bg-primary-title border-0 text-primary-white">❯</a>
+          </div>
+        </div>
+
+       
+      </div>
+
+      <div class="bg-primary-title absolute mr-4 rounded-xl mt-4 block md:hidden">
+        <div class="p-4">
+          <h2 class="text-primary-white text-base font-manrope font-extrabold">Meet all the heroes from the field</h2>
+          <p class="text-primary-footer text-sm font-medium leading-7 font-manrope">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        </div>
+      
     </section>
   </header>
   <!-- Header section end -->
