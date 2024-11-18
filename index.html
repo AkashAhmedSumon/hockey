@@ -1,43 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockey's Club</title>
-    <!-- tailwind and daisy UI link here -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hockey's Club</title>
+  <!-- tailwind and daisy UI link here -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Google font icon link here -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google font icon link here -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Google font link here -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- Google font link here -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
 
-    <!-- Font default style -->
-     <style>
-        .font-manrope{
-            font-family: "Manrope", sans-serif;
-        }
-     </style>
+  <!-- Font default style -->
+  <style>
+    .font-manrope {
+      font-family: "Manrope", sans-serif;
+    }
+  </style>
 
-     <!-- Default styles link here -->
-     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
+  <!-- Default styles link here -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'primary-color': '#FF4240',
+            'primary-title': '#131318',
+            'primary-article': '#13131899',
+            'primary-footer': '#ffffff99',
+            'primary-nav': '#424247',
+            'primary-white': '#FFFFFF'
           }
         }
-      </script>
+      }
+    }
+  </script>
 </head>
+
 <body>
-    <h1>hello</h1>
+  <!-- Header section start -->
+  <header>
+    <!-- Navbar section start -->
+    <section class="container mx-auto">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a class="text-sm md:text-base text-primary-color font-bold font-manrope capitalize">home</a></li>
+              <li><a class="text-sm md:text-base text-primary-nav font-bold font-manrope capitalize">about</a></li>
+              <li><a class="text-sm md:text-base text-primary-nav font-bold font-manrope capitalize">pages</a></li>
+              <li><a class="text-sm md:text-base text-primary-nav font-bold font-manrope capitalize">blog</a></li>
+              <li><a class="text-sm md:text-base text-primary-nav font-bold font-manrope capitalize">contact</a></li>
+              <li>
+                <button class="btn btn-ghost block md:hidden btn-circle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <h2 class="text-xl md:text-4xl font-manrope text-primary-title font-extrabold">Hockey<span
+              class="text-primary-color">’</span>s</h2>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-sm md:text-base text-primary-color font-bold font-manrope capitalize">home</a></li>
+            <li><a class="text-sm md:text-base text-primary-nav font-bold font-manrope capitalize">about</a></li>
+            <li><a class="text-sm md:text-base text-primary-nav font-bold font-manrope capitalize">pages</a></li>
+            <li><a class="text-sm md:text-base text-primary-nav font-bold font-manrope capitalize">blog</a></li>
+            <li><a class="text-sm md:text-base text-primary-nav font-bold font-manrope capitalize">contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <button class="btn btn-ghost hidden md:block btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </button>
+          <a class="btn text-primary-white font-manrope text-sm md:text-xl capitalize font-bold bg-primary-color">get ticket</a>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- Header section end -->
+
+
+
+
+
+
+
+  <!-- Main section start -->
+  <main></main>
+  <!-- Main section end -->
+  <!-- Footer section start -->
+  <footer></footer>
+  <!-- Footer section end -->
+
 </body>
+
 </html>
