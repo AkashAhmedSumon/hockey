@@ -39,7 +39,8 @@
             'primary-footer': '#ffffff99',
             'primary-nav': '#424247',
             'primary-white': '#FFFFFF',
-            'primary-icon': '#F99808'
+            'primary-icon': '#F99808',
+            'primary-input': '#13131808'
           }
         }
       }
@@ -425,7 +426,7 @@
               </ul>
               <h2 class="text-primary-title font-extrabold font-manrope text-xl">World Cup Flags Football</h2>
               <p class="text-primary-article text-base font-manrope font-medium leading-6">Dolor sit amet consectetur.
-                Ut urna diam <br> quis sagittis.  </p>
+                Ut urna diam <br> quis sagittis.</p>
               <div class="flex flex-col md:flex-row gap-3">
                 <p class="text-primary-color text-lg font-manrope font-extrabold leading-6">Price - $22.00</p>
                 <p class="text-primary-article text-base font-manrope font-medium"><i
@@ -441,7 +442,7 @@
           </div>
 
           <div class="">
-            <div class="space-y-3 md:space-y-7">
+            <div class="space-y-3">
               <ul class="flex md:flex-row gap-3">
                 <li class="text-primary-article text-base font-manrope font-medium"><i
                     class="fa-solid fa-star text-primary-icon mr-2"></i>5.0</li>
@@ -452,9 +453,9 @@
               </ul>
               <h2 class="text-primary-title font-extrabold font-manrope text-xl">World Cup Flags Football</h2>
               <p class="text-primary-article text-base font-manrope font-medium leading-6">Dolor sit amet consectetur.
-                Ut urna diam <br> quis sagittis. </p>
-              <div class="flex flex-col md:flex-col lg:flex-row gap-2 lg:gap-0">
-                <p class="text-primary-color text-base lg:text-lg font-manrope font-extrabold leading-6">Price - $22.00</p>
+                Ut urna diam <br> quis sagittis.</p>
+              <div class="flex flex-col md:flex-row gap-3">
+                <p class="text-primary-color text-lg font-manrope font-extrabold leading-6">Price - $22.00</p>
                 <p class="text-primary-article text-base font-manrope font-medium"><i
                     class="fa-solid fa-cart-shopping mr-2"></i>Delivery Fee : Free</p>
               </div>
@@ -532,7 +533,80 @@
      </section>
 
 
-     
+    <!-- Get In Touch section start -->
+     <section class="px-4 lg:px-0">
+      <div class=" space-y-4 border-y-4 border-dotted py-6 md:py-12 mt-24 md:mb-14 mb-10">
+        <h2 class="text-primary-title font-extrabold text-2xl md:text-4xl font-manrope text-center capitalize">get in touch</h2>
+        <p class="text-primary-article font-manrope font-medium text-base leading-6 md:w-2/4 mx-auto text-center">Dit
+          amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+          proin. </p>
+      </div>
+
+
+      <!-- Form section part start -->
+       <div class="flex flex-col md:flex-col lg:flex-row gap-6">
+        <!-- Left side -->
+        <div class="border border-gray-200 p-5 md:p-10 rounded-2xl flex-1">
+
+        <!-- First card -->
+          <div class="rounded-2xl p-8 bg-[#bced6d1a] space-y-3 mb-6  h-[190px] md:h-[220px]">
+            <img src="Images/Group 1.png" alt="">
+            <p class="font-manrope text-base text-primary-article font-normal leading-8">Phone Number : <br>
+              <span class="font-manrope text-lg text-primary-title font-extrabold leading-8">(+62) 123-321-543</span></p>
+          </div>
+        <!-- Second card -->
+          <div class="rounded-2xl p-8 bg-[#fddd5f1a] space-y-3 mb-6  h-[190px] md:h-[220px]">
+            <img src="Images/Group 2.png" alt="">
+            <p class="font-manrope text-base text-primary-article font-normal leading-8">Phone Number : <br>
+              <span class="font-manrope text-lg text-primary-title font-extrabold leading-8">(+62) 123-321-543</span></p>
+          </div>
+        <!-- Third card -->
+          <div class="rounded-2xl p-8 bg-[#629cf31a] space-y-3  h-[190px] md:h-[220px]">
+            <img src="Images/Group 3.png" alt="">
+            <p class="font-manrope text-base text-primary-article font-normal leading-8">Phone Number : <br>
+              <span class="font-manrope text-lg text-primary-title font-extrabold leading-8">(+62) 123-321-543</span></p>
+          </div>
+        </div>
+
+        <!-- Right side -->
+        <div class="flex-1 space-y-8">
+
+            <form class="flex flex-col md:flex-row lg:flex-row gap-6 justify-between">
+              <div class="w-full">
+                <label class="block text-xl font-bold capitalize mb-6" for="name">your name</label>
+              <input class="bg-primary-input rounded-xl p-5 text-base font-manrope font-normal capitalize w-full" placeholder="enter your name" type="text" name="" id="name">
+              </div>
+              <div class="w-full">
+                <label class="block text-xl font-bold capitalize mb-6" for="email">your email</label>
+              <input class="bg-primary-input rounded-xl p-5 text-base font-manrope font-normal capitalize w-full" placeholder="enter your email" type="email" name="" id="email">
+              </div>
+            </form>
+
+            <form class="flex flex-col md:flex-row lg:flex-row gap-6 justify-between">
+              <div class="w-full">
+                <label class="block text-xl font-bold capitalize mb-6" for="subject">subject</label>
+              <input class="bg-primary-input rounded-xl p-5 text-base font-manrope font-normal capitalize w-full" placeholder="enter your subject" type="text" name="" id="subject">
+              </div>
+              <div class="w-full">
+                <label class="block text-xl font-bold capitalize mb-6" for="number">phone number</label>
+              <input class="bg-primary-input rounded-xl p-5 text-base font-manrope font-normal capitalize w-full" placeholder="enter your number" type="number" name="" id="number">
+              </div>
+            </form>
+
+            <form class="flex flex-col md:flex-row lg:flex-row gap-6 justify-between">
+              <div class="w-full">
+                <label class="block text-xl font-bold capitalize mb-6" for="subject">message</label>
+                <textarea class="bg-primary-input rounded-xl p-5 text-base font-manrope font-normal capitalize w-full" placeholder="write your message" name=""  id="" cols="10" rows="12"></textarea>
+              
+              </div>
+            </form>
+            
+            <button class="btn bg-primary-color text-primary-white font-extrabold capitalize text-sm w-full" >send message</button>
+            
+    
+        </div>
+       </div>
+     </section>
   </main>
   <!-- Main section end -->
   <!-- Footer section start -->
